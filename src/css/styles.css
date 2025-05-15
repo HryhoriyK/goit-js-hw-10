@@ -123,6 +123,10 @@ body {
   padding: 8px 16px;
 }
 
+.delay-input:hover{
+  border-color: #000;
+}
+
 fieldset {
   border-radius: 4px;
     stroke-width: 1px;
@@ -132,6 +136,10 @@ fieldset {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 24px;
+}
+
+fieldset:hover {
+  border-color: #000;
 }
 
 .state-input{
@@ -153,6 +161,10 @@ fieldset {
       letter-spacing: 0.04em;
       color: #fff;
       border: none;
+}
+
+.submit-button:hover{
+  background: #6c8cff;
 }
 
 .success {
